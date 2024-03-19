@@ -10,27 +10,24 @@ export default function Profile() {
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icon">
-              <a href="https://web.facebook.com/?_rdc=1&_rdr">
+              <a href="https://www.facebook.com/fanish.pandey.33/">
                 <i className="fa fa-facebook-square" />
               </a>
               <a href="#">
                 <i className="fa fa-google-plus-square" />
               </a>
-              <a href="https://www.instagram.com/instructor_ehizeex/">
+              <a href="https://www.instagram.com/pandey_fanish/">
                 <i className="fa fa-instagram" />
               </a>
-              <a href="https://www.youtube.com/channel/UCSSr5ZDFbilpZ592_ycoAwA">
-                <i className="fa fa-youtube-square" />
-              </a>
-              <a href="https://twitter.com/Ehiedu_baba">
-                <i className="fa fa-twitter" />
+              <a href="https://www.linkedin.com/in/fanish-pandey-772b921ba/">
+                <i className="fa fa-linkedin" />
               </a>
             </div>
           </div>
           <div className="profile-details-name">
             <span className="primary-text">
               {" "}
-              Hello, I'M <span className="highlighted-text">Ehiedu</span>
+              Hello, I'M <span className="highlighted-text">Fanish Pandey</span>
             </span>
           </div>
           <div className="profile-details-role">
@@ -46,7 +43,7 @@ export default function Profile() {
                     1000,
                     "Mern stack Dev 📱",
                     1000,
-                    "Cross Platform Dev 🔴",
+                    "Data Scientist 🔴",
                     1000,
                     "React/React Native 🌐",
                     1000,
@@ -55,7 +52,7 @@ export default function Profile() {
               </h1>
             </span>
             <span className="profile-role-tagline">
-              Knack of building applications with front and back end operations.
+              Knack of building applications with front end operations.
             </span>
           </div>
 
@@ -63,7 +60,7 @@ export default function Profile() {
             <button className="btn primary-btn"
             onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
             > Hire Me </button>
-            <a href="ehizcv.pdf" download="Ehiedu Ehizcv.pdf">
+            <a href="Fanish Pandey CV.pdf" download="Fanish Pandey CV.pdf">
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>

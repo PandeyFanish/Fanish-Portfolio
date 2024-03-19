@@ -14,15 +14,14 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTSANTS = {
     description:
-      "Full stack web and mobile developer with background knowledge of MERN stacks with redux, along with a knack of building applications with utmost efficiency. Strong professional with a BSC willing to be an asset for an organization.",
+      "A motivated Computer Science Engineering student aspiring to work for technology oriented industry with environment full of challenges learning and growth.  I dream to contribute with my technical and inter-personal skills in developing novel solutions and out of box ideasfor resolving the Tech problem",
     highlights: {
       bullets: [
         "Full Stack web and mobile development",
         "Interactive Front End as per the design",
         "React and React Native",
-        "Redux for State Mnanagement",
-        "Building REST API",
-        "Managing database",
+        "Python and C++ Programmer",
+        "Basic knowledge of Ubuntu operating system",
       ],
       heading: "Here are a Few Highlights:",
     },
@@ -63,7 +62,7 @@ export default function AboutMe(props) {
                 {" "}
                 Hire Me{" "}
               </button>
-              <a href="ehizcv.pdf" download="Ehiedu Ehizcv.pdf">
+              <a href="Fanish Pandey CV.pdf" download="Fanish Pandey CV.pdf">
                 <button className="btn highlighted-btn">Get Resume</button>
               </a>
             </div>

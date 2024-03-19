@@ -55,11 +55,9 @@ const Resume = (props) => {
   const programmingSkillsDetails = [
     { skill: "JavaScript", ratingPercentage: 85 },
     { skill: "React JS", ratingPercentage: 85 },
-    { skill: "React Native", ratingPercentage: 85 },
-    { skill: "Express JS", ratingPercentage: 89 },
-    { skill: "Node JS", ratingPercentage: 89 },
-    { skill: "Mongo Db", ratingPercentage: 70 },
-    { skill: "Core Java", ratingPercentage: 80 },
+    { skill: "C++", ratingPercentage: 70 },
+    { skill: "Python", ratingPercentage: 80 },
+    { skill: "Core Java", ratingPercentage: 50 },
     { skill: "HTML", ratingPercentage: 80 },
     { skill: "CSS", ratingPercentage: 80 },
   ];
@@ -67,49 +65,56 @@ const Resume = (props) => {
   const projectsDetails = [
     {
       title: "Personal Portfolio Website",
-      duration: { fromDate: "2020", toDate: "2021" },
+      duration: { fromDate: "2022", toDate: "2023" },
       description:
         "A Personal Portfolio website to showcase all my details and projects at one place.",
       subHeading: "Technologies Used: React JS, Bootsrap",
     },
     {
-      title: "Mobile E-shop ",
-      duration: { fromDate: "2020", toDate: "2021" },
+      title: "Car Rental Website ",
+      duration: { fromDate: "2022", toDate: "2022" },
       description:
-        "An ecommerce application designed to sell products online wth payment system integration",
+        "A website used for booking the cabs for a prticular destination",
       subHeading:
-        "Technologies Used:  React Native, Mongo DB, Express Js, Node Js, Redux.",
+        "Technologies Used:  HTML, CSS, Java Script",
     },
     {
-      title: "Ecommerce Website ",
-      duration: { fromDate: "2020", toDate: "2021" },
+      title: "Breakout Ball Game ",
+      duration: { fromDate: "2022", toDate: "2023" },
       description:
-        "Online ecommerce website for showcasing and selling products onlne with payment system integration, both Paypal and Stripe",
+        "A game app used for playing purpose and enjoyment",
       subHeading:
-        "Technologies Used: Mongo DB, Epress Js, React Js, Node JS, Redux, Bootstrap.",
+        "Technologies Used:  JAVA",
+    },    
+    
+    {
+      title: " Planting More Than  100 trees ",
+      duration: { fromDate: "2018", toDate: "2018" },
+      description:
+        "Planted more than 100 trees in one time with Rotary club as Executive Secretary",
     },
   ];
 
   const resumeDetails = [
     <div className="resume-screen-container" key="education">
       <ResumeHeading
-        heading={"University of Legon Accra, Ghana"}
-        subHeading={"BACHELOR OF SCIENCE INFORMATION TECHNOLOGY"}
-        fromDate={"2014"}
-        toDate={"2018"}
+        heading={"Lovely Professional University, Phagwara"}
+        subHeading={"BACHELOR OF TECHNOLOGY IN COMPUTER SCIENCE ENGINEERING"}
+        fromDate={"2021"}
+        toDate={"PRESENT"}
       />
 
       <ResumeHeading
-        heading={"National Youth Service Corps"}
-        subHeading={"Ministry Of Science And Technogy. Uyo Akwa Ibom State"}
-        fromDate={"2019"}
+        heading={"Cantonment Board Senior Secondary Boys Scholl Jalandhar Cantt."}
+        subHeading={"Senior Secondary Education"}
+        fromDate={"2018"}
         toDate={"2020"}
       />
       <ResumeHeading
         heading={"High School "}
-        subHeading={"Command Secondary School Mbiri"}
-        fromDate={"2007"}
-        toDate={"2012"}
+        subHeading={"St. Anthony's High School,Dhina, Jalandhar"}
+        fromDate={"2014"}
+        toDate={"2018"}
       />
     </div>,
 
@@ -117,33 +122,22 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
         <ResumeHeading
-          heading={"Ehizeex Technoloy"}
-          subHeading={"FULL STACK DEVELOPER INTERN"}
-          fromDate={"2021"}
+          heading={"Teachnook Company, Banglore"}
+          subHeading={"Campus Ambassador"}
+          fromDate={"2022"}
+          toDate={"2023"}
+        />
+        <ResumeHeading
+          heading={"Tutor"}
+          subHeading={""}
+          fromDate={"2019"}
           toDate={"Present"}
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            Currently working as MERN stack web and mobile developer and also an
-            online instructor on udemy.
+            -Giving Tuition to many of the students from past 4 years. Online Tutor and instructor on studypool.
+            
           </span>
-        </div>
-        <div className="experience-description">
-          <span className="resume-description-text">
-            - Developed an ecommerce website for client with the dashboard for
-            managing the products, managing reviews, users, payment etc. .
-          </span>
-          <br />
-          <span className="resume-description-text">
-            - Integrated the web app with backend services to create new user
-            onboarding application with dynamic form content.{" "}
-          </span>
-          <br />
-          <span className="resume-description-text">
-            - I stretch my mental capacity to develope UI as per the given
-            designs.
-          </span>
-          <br />
         </div>
       </div>
     </div>,
@@ -185,15 +179,19 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="interests">
       <ResumeHeading
         heading="Teaching"
-        description="Apart from being a tech enthusiast and a code writer, i also love to teach people what i know simply because i believe in sharing."
+        description="Apart from being a tech enthusiast and a code writer, I also love to teach people what I know simply because I believe in sharing. I have more than 3 years of experience in giving tuitions to academic students."
       />
       <ResumeHeading
         heading="Music"
-        description="Listening to soothing music is something i can never compromise with, skimming through Spotify's pop songs charts is at times the best stress reliever that i can get my hands on."
+        description="Listening to soothing music is something I can never compromise with, skimming through Spotify's pop songs charts is at times the best stress reliever that I can get my hands on."
       />
       <ResumeHeading
-        heading="Competitive Gaming"
-        description="I like to challenge my reflexes a lot while competing in football games, pushing the rank and having interactive gaming sessions excites me the most."
+        heading="Reading"
+        description="Reading to life lesson books and financial books is also one of my core interest."
+      />
+      <ResumeHeading
+        heading="Competitive Gaming "
+        description="I like to challenge my reflexes a lot while competing in football games, pushing the rank and having interactive gaming sessions excites me the most. I also got the best defender award in tournamnet. Aprt form this I had played international FIDE CHESS Tournament with runner up "
       />
     </div>,
   ];
